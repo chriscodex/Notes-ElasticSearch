@@ -2,7 +2,33 @@
     "query": {
         "bool": {
             "must": [
-                
+                {
+                    "bool": {
+                        "should": [
+                            {
+                                "term": {"estado": "activo"}
+                            },
+                            {
+                                "term": {"estado": "pendiente"}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "bool": {
+                        "should": [
+                            {
+                                "match": {"ultimaModificacion.usuario":"mail.com"}
+                            },
+                            {
+                                "match": {"ultimaModificacion.usuario":"vendor.com"}
+                            }
+                        ]
+                    }
+                },
+                {
+                    "term":{"pedidosUltimaHora":0}
+                }
             ]
         }
     }
