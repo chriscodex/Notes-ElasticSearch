@@ -21,7 +21,7 @@
                     "match": {"descripcion":"pico de gallo"}
                 }
             ],
-            "minimum_should_match": 3
+            "minimum_should_match": 2
         }
     }
 }
