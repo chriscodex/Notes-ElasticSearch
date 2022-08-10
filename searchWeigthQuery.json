@@ -2,7 +2,7 @@
     "query": {
         "simple_query_string" : {
             "query": "nachos con queso",
-            "fileds": ["nombre","descripcion^2"]
+            "fields": ["nombre","descripcion^2"]
         }
     }
 }
