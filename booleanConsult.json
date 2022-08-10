@@ -1,0 +1,24 @@
+{
+    "query": {
+        "bool": {
+            "must": {
+                "match": {"descripcion":"picante"}
+            },
+            "filter": {
+                "term": {"estado":"activo"}
+            },
+            "must_not": {
+                "term": {"pedidosUltimaHora": 0}
+            },
+            "should": [
+                {
+                    "match": {"descripcion":"aguacate"}
+                },
+                {
+                    "match": {"descripcion":"guacamole"}
+                }
+            ],
+            "minimum_should_match": 1
+        }
+    }
+}
