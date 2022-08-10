@@ -1,7 +1,0 @@
-{
-    "query": {
-        "simple_query_string" : {
-            "query": "nachos con queso"
-        }
-    }
-}

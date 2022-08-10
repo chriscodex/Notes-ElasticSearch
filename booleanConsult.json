@@ -16,9 +16,12 @@
                 },
                 {
                     "match": {"descripcion":"guacamole"}
+                },
+                {
+                    "match": {"descripcion":"pico de gallo"}
                 }
             ],
-            "minimum_should_match": 1
+            "minimum_should_match": 3
         }
     }
 }
