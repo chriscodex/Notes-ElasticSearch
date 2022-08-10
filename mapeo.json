@@ -1,0 +1,15 @@
+{
+    "mappings": {
+        "properties": {
+            "nombre": {"type": "text"},
+            "descripción": {"type": "text"},
+            "pedidosUltimaHora": {"type": "integer"},
+            "ultimaModificacion": {
+                "properties": {
+                    "usuario": {"type": "text"},
+                    "fecha": {"type": "date"}
+                }
+            }
+        }   
+    }
+}
