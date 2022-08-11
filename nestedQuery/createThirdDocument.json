@@ -1,0 +1,13 @@
+{
+    "nombre":"Subway",
+    "categorias": [
+        {
+            "nombre":"Comida saludable",
+            "principal":false
+        },
+        {
+            "nombre":"Sandwiches",
+            "principal":true
+        }
+    ]
+}
