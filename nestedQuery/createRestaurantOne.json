@@ -1,3 +1,17 @@
 {
-    
+    "nombre": "McDonalds",
+    "categorias": [
+        {
+            "nombre": "Comida rapida",
+            "principal": true
+        },
+        {
+            "nombre": "Desayunos",
+            "principal": false
+        },
+        {
+            "nombre": "Hamburguesas",
+            "principal": false
+        }
+    ]
 }
