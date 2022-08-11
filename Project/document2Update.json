@@ -1,0 +1,20 @@
+{
+    "doc": {
+        "calificacion": 3.75,
+        "direccion": "Calle Segunda, Barrio Occidental",
+        "platos": [
+            {
+                "nombre": "Nachos XL",
+                "descripcion": "Nachos con carne, guacamole, pico de gallo, salsa picante y queso",
+                "estado": "activo",
+                "pedidosUltimaHora": 11
+            }
+        ],
+        "ultimaModificacion": {
+            "properties": {
+                "fecha": "2020-03-01",
+                "usuario": "jerry@mail.com"
+            }
+        }
+    }
+}

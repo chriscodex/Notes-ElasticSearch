@@ -1,0 +1,18 @@
+{
+    "doc": {
+        "calificacion": 3,
+        "direccion": "Calle Tercera",
+        "platos": [
+            {
+                "nombre": "Ensaladisima",
+                "descripcion": "Aceitunas, cebolla, queso, tomate, aguacate(saludable)",
+                "estado": "activo",
+                "pedidosUltimaHora": 0
+            }
+        ],
+        "ultimaModificacion": {
+            "fecha": "rick@mail.com",
+            "usuario": "2020-01-22"
+        }
+    }
+}
