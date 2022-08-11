@@ -1,0 +1,18 @@
+{
+    "mappings": {
+        "properties": {
+            "nombre": {"type": "text"},
+            "categorias": {
+                "type":"nested",
+                "properties": {
+                    "nombre": {
+                        "type":"keyword"
+                    },
+                    "principal": {
+                        "type":"boolean"
+                    }
+                }
+            }
+        }
+    }
+}
