@@ -1,0 +1,13 @@
+{
+    "nombre": "Burger King",
+    "categorias": [
+        {
+            "nombre": "Comida rapida",
+            "principal": false
+        },
+        {
+            "nombre": "Hamburguesas",
+            "principal": true
+        }
+    ]
+}
