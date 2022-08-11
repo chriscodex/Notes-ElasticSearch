@@ -1,0 +1,11 @@
+{
+    "_source": ["nombre", "ultimaModificacion"],
+    "query": {
+        "range": {
+            "ultimaModificacion.fecha": {
+                "gte": "2020-01-15",
+                "lt": "2020-03-01"
+            }
+        }
+    }
+}

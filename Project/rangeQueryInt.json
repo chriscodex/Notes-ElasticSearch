@@ -1,0 +1,11 @@
+{
+    "_source": ["nombre","calificacion"],
+    "query": {
+        "range": {
+            "calificacion": {
+                "gt": 3.5,
+                "lte": 4.5
+            }
+        }
+    }
+}
