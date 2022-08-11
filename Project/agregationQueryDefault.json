@@ -1,0 +1,10 @@
+{
+    "aggs": {
+        "calificacionPromedio": {
+            "avg": {
+                "field": "calificacion",
+                "missing": 3.0
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "aggs": {
+        "calificacionPromedio": {
+            "avg": {
+                "field": "calificacion"
+            }
+        },
+        "calificacionMaxima": {
+            "max": {
+                "field": "calificacion"
+            }
+        },
+        "calificacionMinima": {
+            "min": {
+                "field": "calificacion"
+            }
+        }
+    }
+}
