@@ -1,0 +1,23 @@
+{
+    "query": {
+        "nested": {
+            "path": "categorias",
+            "query": {
+                "bool": {
+                    "must": [
+                        {
+                            "term": {
+                                "categorias.nombre": "Comida Rapida"
+                            }
+                        },
+                        {
+                            "term": {
+                                "categorias.principal": true
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
