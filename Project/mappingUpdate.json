@@ -1,0 +1,39 @@
+{
+    "properties": {
+        "calificacion": {
+            "type":"double"
+        },
+        "direccion": {
+            "type":"text"
+        },
+        "platos": {
+            "type": "nested",
+            "properties": [
+                {
+                    "nombre": {
+                        "type": "text"
+                    },
+                    "descripcion": {
+                        "type":"text"
+                    },
+                    "estado": {
+                        "type": "keyword"
+                    },
+                    "pedidosUltimaHora": {
+                        "type": "integer"
+                    }
+                }
+            ]
+        },
+        "ultimaModificacion": {
+            "properties": {
+                "fecha": {
+                    "type": "date"
+                },
+                "usuario": {
+                    "type": "text"
+                }
+            }
+        }
+    }
+}
